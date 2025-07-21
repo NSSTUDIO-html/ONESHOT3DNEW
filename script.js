@@ -39,7 +39,7 @@ function generateMesh(image, depthMap, width, height) {
 function initScene() {
   scene = new THREE.Scene();
   camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
-  camera.position.z = 100;
+  camera.position.z = 300;
 
   renderer = new THREE.WebGLRenderer({ canvas });
   renderer.setSize(window.innerWidth, window.innerHeight);
