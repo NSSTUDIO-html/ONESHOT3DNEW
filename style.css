@@ -1,0 +1,44 @@
+/* General reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Header styles */
+h1 {
+  background-color: #24292e;
+  color: #ffffff;
+  padding: 20px 0;
+  margin: 0;
+  font-size: 28px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* File input styles */
+input[type="file"] {
+  margin: 25px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+input[type="file"]:hover {
+  border-color: #007bff;
+}
+
+/* Canvas styling */
+canvas#threeCanvas {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
