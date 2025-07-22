@@ -22,14 +22,14 @@ h1 {
 /* File input styles */
 input[type="file"] {
   margin: 25px auto;
-  padding: 10px;
+  padding: 50px 40px;
   font-size: 16px;
   border: 2px solid #ccc;
   border-radius: 8px;
   background-color: #fff;
   cursor: pointer;
   transition: border-color 0.3s ease;
-  width:100%;
+  width:contain;
 }
 
 input[type="file"]:hover {
