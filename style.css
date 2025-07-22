@@ -16,6 +16,7 @@ h1 {
   margin: 0;
   font-size: 28px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width:100%;
 }
 
 /* File input styles */
@@ -28,10 +29,12 @@ input[type="file"] {
   background-color: #fff;
   cursor: pointer;
   transition: border-color 0.3s ease;
+  width:100%;
 }
 
 input[type="file"]:hover {
   border-color: #007bff;
+  
 }
 
 /* Canvas styling */
@@ -42,4 +45,5 @@ canvas#threeCanvas {
   border: 2px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width:100%;
 }
